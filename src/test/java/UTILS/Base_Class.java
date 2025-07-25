@@ -44,8 +44,19 @@ public class Base_Class {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();                    //click on sign in
 		
 		
+		
+		// git init
+		//$ git config --global user.name "sandeep"
+		//$ git confog --global user.email "nagapurisandeep1996@gmail.com"
 	
-							
+		//	$ git status
+		//$ git add -A
+		//$ git status
+		//$ git commit -m "first commit"
+		
+		// git config --global user.email "you@example.com"
+		  //git config --global user.name "Your Name"
+
 				
 	}
 	
