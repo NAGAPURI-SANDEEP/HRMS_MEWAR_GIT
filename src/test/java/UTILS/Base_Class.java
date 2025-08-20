@@ -56,6 +56,9 @@ public class Base_Class {
 		
 		// git config --global user.email "you@example.com"
 		  //git config --global user.name "Your Name"
+		
+		//$ git remote add origin "git@github.com:NAGAPURI-SANDEEP/HRMS_MEWAR_GIT.git"
+		//$ git remote -v
 
 				
 	}
