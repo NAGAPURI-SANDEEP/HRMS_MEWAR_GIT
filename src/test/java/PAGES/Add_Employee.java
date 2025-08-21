@@ -73,12 +73,17 @@ public class Add_Employee extends Base_Class {
 		
 
 		driver.findElement(By.id("register_currentPincode")).sendKeys("505001");
+<<<<<<< HEAD
 		
 		driver.findElement(By.id("register_dateOfJoining")).sendKeys("18-Aug-2025");
+=======
+>>>>>>> 9422285 (Commit by Priyank)
 		driver.findElement(By.id("register_sameAsCurrentAddress")).click();
+		
 		
 		driver.findElement(By.id("register_experienceInMewar")).sendKeys("5");
 		driver.findElement(By.id("register_experienceInOther")).sendKeys("10");
+		driver.findElement(By.xpath("//*[@id=\"register_dateOfJoining\"]")).sendKeys("29-Jul-2025");
 		
 		driver.findElement(By.id("rc_select_11")).click();
 		WebElement select_prefix=driver.findElement(By.id("rc_select_11"));
@@ -116,15 +121,25 @@ public class Add_Employee extends Base_Class {
 
 		
 		
+<<<<<<< HEAD
 		driver.findElement(By.id("rc_select_17")).click();
 		WebElement select_branch = driver.findElement(By.id("rc_select_17"));
 		select_branch.sendKeys("work from home India");
 		select_branch.sendKeys(Keys.ENTER);
+=======
+		driver.findElement(By.xpath("//*[@id=\"rc_select_17\"]")).click();
+		WebElement select_branch = driver.findElement(By.xpath("//*[@id=\"rc_select_17\"]"));
+		select_branch.sendKeys("Work From Home India");
+>>>>>>> 9422285 (Commit by Priyank)
 		
 		Thread.sleep(1000);
 		
 		
+<<<<<<< HEAD
 		driver.findElement(By.id("register_salaryCalculateFrom")).sendKeys("18-Aug-2025");
+=======
+		driver.findElement(By.id("register_salaryCalculateFrom")).sendKeys("23-Jul-2025");
+>>>>>>> 9422285 (Commit by Priyank)
 		select_branch.sendKeys(Keys.ENTER);
 		
 		

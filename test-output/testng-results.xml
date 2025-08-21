@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-08-20T10:19:50 IST" name="Default suite" finished-at="2025-08-20T10:27:05 IST" duration-ms="435673">
     <groups>
     </groups>
@@ -17,9 +18,26 @@
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div/div[1]/div/div/div[2]/button[2]"}
   (Session info: chrome=139.0.7258.128)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+=======
+  <suite started-at="2025-08-21T12:22:31 IST" name="Default suite" finished-at="2025-08-21T12:22:46 IST" duration-ms="14781">
+    <groups>
+    </groups>
+    <test started-at="2025-08-21T12:22:31 IST" name="Default test" finished-at="2025-08-21T12:22:46 IST" duration-ms="14781">
+      <class name="PAGES.Add_Employee">
+        <test-method is-config="true" signature="UserLogin()[pri:0, instance:PAGES.Add_Employee@3590fc5b]" started-at="2025-08-21T12:22:31 IST" name="UserLogin" finished-at="2025-08-21T12:22:39 IST" duration-ms="7701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method signature="addemp()[pri:0, instance:PAGES.Add_Employee@3590fc5b]" started-at="2025-08-21T12:22:39 IST" name="addemp" finished-at="2025-08-21T12:22:46 IST" duration-ms="7029" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <textarea placeholder="Enter full current address" rows="2" id="register_currentAddress" aria-required="true" class="ant-input css-pjilya ant-input-outlined ant-input-status-success">...</textarea> is not clickable at point (819, 383). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap" style="z-index: 2000;">...</div>
+  (Session info: chrome=139.0.7258.128)
+>>>>>>> 9422285 (Commit by Priyank)
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+<<<<<<< HEAD
 Command: [3fae9b1b0300edbd36329eb13306b0d7, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div/div[1]/div/div/div[2]/button[2]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\weban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50962/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 3fae9b1b0300edbd36329eb13306b0d7]]>
@@ -28,12 +46,29 @@ Session ID: 3fae9b1b0300edbd36329eb13306b0d7]]>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div/div[1]/div/div/div[2]/button[2]"}
   (Session info: chrome=139.0.7258.128)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+=======
+Command: [e611ea9a8741786f608a7f15f6c0d7b7, clickElement {id=f.827DB5F0CCFC883AC399B93AC262D0A2.d.9AE2C7D35E62BBB927EAF07DE634AC0D.e.74}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Sahil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:34984/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e611ea9a8741786f608a7f15f6c0d7b7)] -> id: register_currentAddress]
+Session ID: e611ea9a8741786f608a7f15f6c0d7b7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <textarea placeholder="Enter full current address" rows="2" id="register_currentAddress" aria-required="true" class="ant-input css-pjilya ant-input-outlined ant-input-status-success">...</textarea> is not clickable at point (819, 383). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap" style="z-index: 2000;">...</div>
+  (Session info: chrome=139.0.7258.128)
+>>>>>>> 9422285 (Commit by Priyank)
 Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+<<<<<<< HEAD
 Command: [3fae9b1b0300edbd36329eb13306b0d7, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div/div[1]/div/div/div[2]/button[2]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\weban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50962/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 3fae9b1b0300edbd36329eb13306b0d7
+=======
+Command: [e611ea9a8741786f608a7f15f6c0d7b7, clickElement {id=f.827DB5F0CCFC883AC399B93AC262D0A2.d.9AE2C7D35E62BBB927EAF07DE634AC0D.e.74}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\Sahil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:34984/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e611ea9a8741786f608a7f15f6c0d7b7)] -> id: register_currentAddress]
+Session ID: e611ea9a8741786f608a7f15f6c0d7b7
+>>>>>>> 9422285 (Commit by Priyank)
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -44,11 +79,17 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+<<<<<<< HEAD
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at PAGES.Add_Employee_Excel.AddEMP(Add_Employee_Excel.java:189)
+=======
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at PAGES.Add_Employee.addemp(Add_Employee.java:49)
+>>>>>>> 9422285 (Commit by Priyank)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -77,11 +118,16 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- AddEMP -->
       </class> <!-- PAGES.Add_Employee_Excel -->
+=======
+        </test-method> <!-- addemp -->
+      </class> <!-- PAGES.Add_Employee -->
+>>>>>>> 9422285 (Commit by Priyank)
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
