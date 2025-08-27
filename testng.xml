@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="PAGES.Config_Contractors"/>
+      <class name="PAGES.Configure_Branch"/>
+      <class name="PAGES.Add_Program_document"/>
+      <class name="PAGES.Configuration_Grades"/>
+      <class name="PAGES.Configuration_Salary_Structure"/>
+      <class name="PAGES.Config_Investment_Type"/>
+      <class name="PAGES.Add_Employee_Excel"/>
+      <class name="PAGES.Add_Employee"/>
+      <class name="PAGES.Config_Travel_Time"/>
+      <class name="PAGES.ConfigurationShifts"/>
+      <class name="PAGES.Config_Groups"/>
+      <class name="PAGES.Add_Trainer"/>
+      <class name="PAGES.Configuration_Companies"/>
+      <class name="PAGES.Config_Employee_Type"/>
+      <class name="PAGES.Add_Program"/>
+      <class name="PAGES.ConfigStatutory"/>
+      <class name="PAGES.ConfigPolicies"/>
+      <class name="PAGES.Config_Designations"/>
+      <class name="PAGES.Configuration_Departments"/>
+      <class name="PAGES.ConfigurrationHolidays"/>
+      <class name="PAGES.Config_Params"/>
+      <class name="PAGES.Configuration_Salary_Unit"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

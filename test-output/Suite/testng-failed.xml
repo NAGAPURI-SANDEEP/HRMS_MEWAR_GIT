@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="PAGES.ConfigPolicies">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_companies"/>
+        </methods>
+      </class> <!-- PAGES.ConfigPolicies -->
+      <class name="PAGES.Configuration_Departments">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_Departments"/>
+        </methods>
+      </class> <!-- PAGES.Configuration_Departments -->
+      <class name="PAGES.Add_Employee">
+        <methods>
+          <include name="addemp"/>
+          <include name="UserLogin"/>
+        </methods>
+      </class> <!-- PAGES.Add_Employee -->
+      <class name="PAGES.ConfigurrationHolidays">
+        <methods>
+          <include name="add_Holidays"/>
+          <include name="UserLogin"/>
+        </methods>
+      </class> <!-- PAGES.ConfigurrationHolidays -->
+      <class name="PAGES.Configuration_Companies">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_companies"/>
+        </methods>
+      </class> <!-- PAGES.Configuration_Companies -->
+      <class name="PAGES.ConfigStatutory">
+        <methods>
+          <include name="add_companies"/>
+          <include name="UserLogin"/>
+        </methods>
+      </class> <!-- PAGES.ConfigStatutory -->
+      <class name="PAGES.Config_Params">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_configparams"/>
+        </methods>
+      </class> <!-- PAGES.Config_Params -->
+      <class name="PAGES.Config_Groups">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_configgroups"/>
+        </methods>
+      </class> <!-- PAGES.Config_Groups -->
+      <class name="PAGES.Add_Employee_Excel">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="AddEMP"/>
+        </methods>
+      </class> <!-- PAGES.Add_Employee_Excel -->
+      <class name="PAGES.Add_Program">
+        <methods>
+          <include name="add_program"/>
+          <include name="UserLogin"/>
+        </methods>
+      </class> <!-- PAGES.Add_Program -->
+      <class name="PAGES.Config_Designations">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_Designations"/>
+        </methods>
+      </class> <!-- PAGES.Config_Designations -->
+      <class name="PAGES.Configuration_Grades">
+        <methods>
+          <include name="add_Grades"/>
+          <include name="UserLogin"/>
+        </methods>
+      </class> <!-- PAGES.Configuration_Grades -->
+      <class name="PAGES.Configure_Branch">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_branches"/>
+        </methods>
+      </class> <!-- PAGES.Configure_Branch -->
+      <class name="PAGES.Configuration_Salary_Unit">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_Salaryunit"/>
+        </methods>
+      </class> <!-- PAGES.Configuration_Salary_Unit -->
+      <class name="PAGES.Configuration_Salary_Structure">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_Salarystructure"/>
+        </methods>
+      </class> <!-- PAGES.Configuration_Salary_Structure -->
+      <class name="PAGES.Add_Program_document">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_program_document"/>
+        </methods>
+      </class> <!-- PAGES.Add_Program_document -->
+      <class name="PAGES.Add_Trainer">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="add_trainer"/>
+        </methods>
+      </class> <!-- PAGES.Add_Trainer -->
+      <class name="PAGES.Config_Investment_Type">
+        <methods>
+          <include name="add_companies"/>
+          <include name="UserLogin"/>
+        </methods>
+      </class> <!-- PAGES.Config_Investment_Type -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

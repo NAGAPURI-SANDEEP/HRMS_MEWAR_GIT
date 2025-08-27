@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PAGES.Add_Employee_Excel">
+      <class name="PAGES.Employee_Master_update_weekoff">
         <methods>
+          <include name="updateWeekOff"/>
           <include name="UserLogin"/>
-          <include name="AddEMP"/>
         </methods>
-      </class> <!-- PAGES.Add_Employee_Excel -->
+      </class> <!-- PAGES.Employee_Master_update_weekoff -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
