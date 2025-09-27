@@ -13,7 +13,9 @@ public class Config_Groups extends Base_Class {
 	
 	public static void add_configgroups() throws InterruptedException {
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[8]/div/div/a/div/div")).click();
+		Thread.sleep(5000);
+        driver.findElement(By.xpath("/html/body/div/div/div/div[1]/div/div/div[2]/div/div[8]/div/div/a/div/div/span")).click();
+         
         
         driver.findElement(By.xpath("//*[@id=\"rc-tabs-1-panel-config-groups\"]/div/div[1]/div[2]/div/div[3]/button")).click();
         

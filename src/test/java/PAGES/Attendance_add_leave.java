@@ -52,13 +52,13 @@ public class Attendance_add_leave extends Base_Class {
 		
 		WebElement select_start_date = driver.findElement(By.id("register_startDate"));
 		select_start_date.click();
-		select_start_date.sendKeys("17-Aug-2025");
+		select_start_date.sendKeys("19-Aug-2025");
 		select_start_date.sendKeys(Keys.ENTER);
 		
 		
 		WebElement select_end_date = driver.findElement(By.id("register_endDate"));
 		select_end_date.click();
-		select_end_date.sendKeys("18-Aug-2025");
+		select_end_date.sendKeys("20-Aug-2025");
 		select_end_date.sendKeys(Keys.ENTER);
 		
 		

@@ -12,8 +12,9 @@ public class Config_Contractors  extends Base_Class {
 	public static void add_companies() throws InterruptedException {
 
 
-        driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[8]/div/div/a/div/div")).click();
-        
+		Thread.sleep(5000);
+        driver.findElement(By.xpath("/html/body/div/div/div/div[1]/div/div/div[2]/div/div[8]/div/div/a/div/div/span")).click();
+               
         driver.findElement(By.xpath("//*[@id=\"bodyWrapper\"]/div/div/div[1]/div[1]/div/div[12]")).click();
         Thread.sleep(1000);
         

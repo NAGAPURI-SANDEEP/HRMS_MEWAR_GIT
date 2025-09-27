@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T17:53:57 IST" name="Default suite" finished-at="2025-08-27T17:54:36 IST" duration-ms="39197">
+  <suite started-at="2025-09-27T14:33:34 IST" name="Default suite" finished-at="2025-09-27T14:34:57 IST" duration-ms="83248">
     <groups>
     </groups>
-    <test started-at="2025-08-27T17:53:57 IST" name="Default test" finished-at="2025-08-27T17:54:36 IST" duration-ms="39197">
-      <class name="PAGES.Employee_Master_update_weekoff">
-        <test-method is-config="true" signature="UserLogin()[pri:0, instance:PAGES.Employee_Master_update_weekoff@3590fc5b]" started-at="2025-08-27T17:53:57 IST" name="UserLogin" finished-at="2025-08-27T17:54:03 IST" duration-ms="6157" status="PASS">
+    <test started-at="2025-09-27T14:33:34 IST" name="Default test" finished-at="2025-09-27T14:34:57 IST" duration-ms="83248">
+      <class name="PAGES.Employee_Master_Add_Employee">
+        <test-method is-config="true" signature="UserLogin()[pri:0, instance:PAGES.Employee_Master_Add_Employee@515c6049]" started-at="2025-09-27T14:33:34 IST" name="UserLogin" finished-at="2025-09-27T14:33:41 IST" duration-ms="7434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserLogin -->
-        <test-method signature="updateWeekOff()[pri:0, instance:PAGES.Employee_Master_update_weekoff@3590fc5b]" started-at="2025-08-27T17:54:03 IST" name="updateWeekOff" finished-at="2025-08-27T17:54:36 IST" duration-ms="32992" status="FAIL">
+        <test-method signature="addemp()[pri:0, instance:PAGES.Employee_Master_Add_Employee@515c6049]" started-at="2025-09-27T14:33:41 IST" name="addemp" finished-at="2025-09-27T14:34:57 IST" duration-ms="75714" status="FAIL">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cf7151427b0db4ed55545c27e2ab6286, findElement [using, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\weban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61089/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf7151427b0db4ed55545c27e2ab6286]]>
+Command: [14ae4f0a313053531637bdaf8387d8ea, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\weban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52931/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14ae4f0a313053531637bdaf8387d8ea]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cf7151427b0db4ed55545c27e2ab6286, findElement [using, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\weban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61089/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cf7151427b0db4ed55545c27e2ab6286
+Command: [14ae4f0a313053531637bdaf8387d8ea, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\weban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52931/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14ae4f0a313053531637bdaf8387d8ea
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at PAGES.Employee_Master_update_weekoff.updateWeekOff(Employee_Master_update_weekoff.java:43)
+at PAGES.Employee_Master_Add_Employee.addemp(Employee_Master_Add_Employee.java:57)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -107,8 +107,8 @@ at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpCl
           </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateWeekOff -->
-      </class> <!-- PAGES.Employee_Master_update_weekoff -->
+        </test-method> <!-- addemp -->
+      </class> <!-- PAGES.Employee_Master_Add_Employee -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

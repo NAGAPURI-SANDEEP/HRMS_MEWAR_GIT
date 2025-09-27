@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import UTILS.Base_Class;
@@ -20,9 +21,10 @@ public class Employee_Master_Add_Employee_Excel extends Base_Class {
 
 		int rows = Excel_Utils.getRowCount(filepath, "Employee_Data");
 
-		driver.findElement(
-				By.xpath("/html/body/div[1]/div/div/div[1]/div/div/div[2]/div/div[2]/div/div/a/div/div/span")).click();
 
+		Thread.sleep(3000);
+		driver.findElement(
+				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[2]/div/div/a/div/div/span")).click();
 		Thread.sleep(2000);
 		
 
@@ -37,9 +39,13 @@ public class Employee_Master_Add_Employee_Excel extends Base_Class {
 			// read data from the excel
 
 			String Aadhar_Number = Excel_Utils.getCellData(filepath, "Employee_Data", i, 14);
+			
 			//String UAN=Excel_Utils.getCellData(filepath, "Employee_Data", i, 54);
+			
 			//String Salutation = Excel_Utils.getCellData(filepath, "Employee_Data", i,2);
+			
 			String First_Name = Excel_Utils.getCellData(filepath, "Employee_Data", i, 3);
+			
 			String Last_Name = Excel_Utils.getCellData(filepath, "Employee_Data", i, 4);
 			String Father_Name = Excel_Utils.getCellData(filepath, "Employee_Data", i, 5);
 			String Mother_Name = Excel_Utils.getCellData(filepath, "Employee_Data", i, 6);
@@ -59,7 +65,7 @@ public class Employee_Master_Add_Employee_Excel extends Base_Class {
 			
 			String Exp_Mewar = Excel_Utils.getCellData(filepath, "Employee_Data", i, 30);
 			String Exp_Other = Excel_Utils.getCellData(filepath, "Employee_Data", i, 29);
-			String Prefix = Excel_Utils.getCellData(filepath, "Employee_Data", i, 34);
+			//String Prefix = Excel_Utils.getCellData(filepath, "Employee_Data", i, 34);
 			String designation = Excel_Utils.getCellData(filepath, "Employee_Data", i, 35);
 			String Company= Excel_Utils.getCellData(filepath, "Employee_Data", i, 42);
 			String Department= Excel_Utils.getCellData(filepath, "Employee_Data", i, 32);
@@ -91,6 +97,17 @@ public class Employee_Master_Add_Employee_Excel extends Base_Class {
 			driver.findElement(By.id("register_dateOfBirth")).sendKeys("10-Feb-1996");
 			driver.findElement(By.id("register_pan")).sendKeys(PAN);
 			driver.findElement(By.id("register_education")).sendKeys(Education);
+			
+			
+			driver.findElement(By.id("register_caste")).click();
+			Thread.sleep(2000);
+			WebElement option = driver.findElement(By.xpath("//div[contains(@class,'option') and text()='OBC']"));
+			// 3. Hover and click (Actions class)
+			Actions actions = new Actions(driver);
+			actions.moveToElement(option).click().perform();
+			
+			
+			
 			driver.findElement(By.id("register_emailId")).sendKeys(Email);
 			driver.findElement(By.id("register_mobile")).sendKeys(Mobile);
 			driver.findElement(By.id("register_altContactNo")).sendKeys(Alternative_contact_Number);
@@ -122,10 +139,6 @@ public class Employee_Master_Add_Employee_Excel extends Base_Class {
 			driver.findElement(By.id("register_experienceInMewar")).sendKeys(Exp_Mewar);
 			driver.findElement(By.id("register_experienceInOther")).sendKeys(Exp_Other);
 			
-			driver.findElement(By.id("rc_select_11")).click();
-			WebElement select_prefix=driver.findElement(By.id("rc_select_11"));
-			select_prefix.sendKeys(Prefix);
-			select_prefix.sendKeys(Keys.ENTER);
 			
 
 			driver.findElement(By.id("rc_select_12")).click();

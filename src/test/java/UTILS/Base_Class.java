@@ -63,6 +63,45 @@ public class Base_Class {
 				
 	}
 	
+	
+	//Random mail generation
+	
+	public static String getRandomEmail() {
+	    String uuid = java.util.UUID.randomUUID().toString().replace("-", "").substring(0,8);
+	    return "user" + uuid + "@yopmail.com";
+	}
+	
+	//Random aadhaar generation 
+	
+	public static String getRandomAadhaar() {
+	    StringBuilder aadhaar = new StringBuilder();
+	    java.util.Random rand = new java.util.Random();
+
+	    // Generate 12 random digits
+	    for (int i = 0; i < 12; i++) {
+	        aadhaar.append(rand.nextInt(10));  // 0–9
+	    }
+
+	    return aadhaar.toString();
+	}
+	
+	//Random name generator
+	
+	public static String getRandomName() {
+	    String[] firstNames = {"Aarav", "Vihaan", "Reyansh", "Aditya", "Krishna", 
+	                           "Ishaan", "Rohan", "Sandeep", "Rahul", "Arjun", 
+	                           "Neha", "Ananya", "Priya", "Kavya", "Pooja"};
+	    String[] lastNames = {"Sharma", "Verma", "Reddy", "Patel", "Naidu", 
+	                          "Gupta", "Mehta", "Kulkarni", "Nair", "Singh"};
+
+	    java.util.Random rand = new java.util.Random();
+	    String first = firstNames[rand.nextInt(firstNames.length)];
+	    String last = lastNames[rand.nextInt(lastNames.length)];
+
+	    return first + " " + last;
+	}
+
+	
 
 	
 	

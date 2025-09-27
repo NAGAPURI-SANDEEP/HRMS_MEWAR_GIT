@@ -17,7 +17,9 @@ public class Employee_Master_Update_shift extends Base_Class{
 	
 	@Test
 	public static void updateShift() throws InterruptedException {
-		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/div[2]/div/div[2]/div/div/a/div/div/span")).click();
+		Thread.sleep(3000);
+		driver.findElement(
+				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[2]/div/div/a/div/div/span")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div/div/div/div[2]/div[2]/div/div/div/div[1]/div[1]/div/div[2]/div")).click();
 		driver.findElement(By.xpath("//input[@type='checkbox']")).click();
