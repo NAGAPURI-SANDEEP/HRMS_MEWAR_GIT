@@ -11,11 +11,13 @@ import UTILS.Base_Class;
 public class Trainings_Add_Program extends Base_Class {
 	
 	@Test
-	public static void add_program() {
-		
-		
+	public static void add_program() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.findElement(
-				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[7]/div/div/a/div")).click();
+				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[7]/div/div/a")).click();
+		
+		
+		
 		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[2]/div/div[3]/button/span")).click();
 		
 		driver.findElement(By.id("register_title")).sendKeys("Training Program TEST");

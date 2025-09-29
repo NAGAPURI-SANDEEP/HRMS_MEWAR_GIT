@@ -19,16 +19,19 @@ public class Employee_Master_update_weekoff extends Base_Class {
 		
 		
 		
-		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/div[2]/div/div[2]/div/div/a/div/div/span")).click();
 		Thread.sleep(3000);
+		driver.findElement(
+				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[2]/div/div/a/div/div/span")).click();
+
 		driver.findElement(By.xpath("/html/body/div/div/div/div[2]/div[2]/div/div/div/div[1]/div[1]/div/div[2]/div")).click();
 		Thread.sleep(3000);
 
 		driver.findElement(By.xpath("//input[@type='checkbox']")).click();
-		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/button[2]/span/span")).click();
+		
+		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div[2]/button")).click();
 		Thread.sleep(3000);
 		
-		WebElement update_weekoff=	driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/button[2]"));
+		WebElement update_weekoff=	driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div[2]/button"));
 		update_weekoff.click();
 		Thread.sleep(2000);
 		update_weekoff.sendKeys(Keys.TAB);
@@ -42,7 +45,7 @@ public class Employee_Master_update_weekoff extends Base_Class {
 		js.executeScript("arguments[0].focus();", modal);
 
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div[1]/div/div[2]/div[1]/div[3]/button[2]")).click();
+		driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div[3]/div[1]/div")).click();
 		
 		
 		

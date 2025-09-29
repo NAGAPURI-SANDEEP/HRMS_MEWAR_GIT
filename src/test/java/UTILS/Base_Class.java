@@ -52,7 +52,7 @@ public class Base_Class {
 		//	$ git status
 		//$ git add -A
 		//$ git status
-		//$ git commit -m "first commit"
+		//$ git commit -m " commtied on 27-09"
 		
 		// git config --global user.email "you@example.com"
 		  //git config --global user.name "Your Name"

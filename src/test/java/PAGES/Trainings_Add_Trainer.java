@@ -9,9 +9,10 @@ public class Trainings_Add_Trainer extends Base_Class {
 
 	@Test
 	public static void add_trainer() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.findElement(
-				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[7]/div/div/a/div")).click();
-
+				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[7]/div/div/a")).click();
+		
 		driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div[2]/div/div/div/div[1]/div[1]/div/div[2]/div"))
 				.click();
 		driver.findElement(By.xpath(

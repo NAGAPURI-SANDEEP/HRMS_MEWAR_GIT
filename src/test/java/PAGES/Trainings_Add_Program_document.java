@@ -12,8 +12,10 @@ public class Trainings_Add_Program_document extends Base_Class {
 
 	@Test
 	public static void add_program_document() throws InterruptedException {
+		
+		Thread.sleep(3000);
 		driver.findElement(
-				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[7]/div/div/a/div")).click();
+				By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div[2]/div/div[7]/div/div/a")).click();
 		
 		Thread.sleep(2000);
 		
